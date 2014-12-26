@@ -1,0 +1,250 @@
+
+#pageContainer {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#topnav {
+	height: 20px;
+	background-color: #3a4247;
+}
+
+#smallLogo {
+	float: left;
+	color: white;
+}
+
+#smallLogo p {
+	margin: 0;
+}
+
+#nav {
+	float: left;
+	color: white;
+}
+
+#nav ul {
+	list-style: none;
+	margin: 0;
+}
+
+#nav ul li {
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#nav ul li:first-child {
+	padding-left: 90px;
+}
+
+#login {
+	float: right;
+	color: #69b2d7;
+}
+
+#login p {
+	margin: 0;
+	padding-right: 10px;
+}
+
+#topoflogo {
+	height: 20px;
+	background: linear-gradient(to right, #69b2d7, #90BCD2, #69b2d7);
+	text-align: right;
+}
+
+#topoflogo p {
+	margin: 0;
+	padding-left: 5px;
+	padding-right: 10px;
+}
+
+#highlight p {
+	display: inline;
+	background-color: #ecf4f6;
+}
+
+#logo {
+	height: 70px;
+	background: linear-gradient(to right, #69b2d7, #90BCD2, #69b2d7);
+	text-align: center;
+}
+
+#logo h1 {
+	margin: 0;
+	padding-top: 3px;
+}
+
+#audience {
+	height: 300px;
+	background-color: #ecf4f6;
+}
+
+#bar {
+	height: 100px;
+	background-color: #3a4247;
+}
+
+#restore {
+	height: 400px;
+	background-color: #e0eef6;
+}
+
+#accelerate {
+	height: 300px;
+	background-color: #eaf2f4;
+}
+
+#conquer {
+	height: 300px;
+	background-color: #ddeaf1;
+}
+
+#trust {
+	height: 300px;
+	background-color: #f2fbfd;
+}
+
+#bluebar {
+	height: 10px;
+	background-color: #2c81b5;
+}
+
+#blackbar {
+	height: 10px;
+	background-color: #3a4247;
+}
+
+#menus {
+	height: 330px;	
+	text-align: center;
+	background-color: #ceeefb;
+}
+
+.picture {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.titles {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.words {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 85%;
+	margin: 0 auto;
+}
+
+#bottom {
+	height: 15px;
+	background-color: #b0d9ea;
+}
+
+/*--------------   Flow - GS   --------------*/
+/*! 
+ * Flow - A Fully Fluid Responsive Grid System
+ * Created by Isaac Gray
+ *
+ * Generate a grid at http://flow.gs
+ */
+ 
+.section {
+	clear: both;
+	padding: 0;
+	margin: 0;
+	margin-left: -0em;
+}
+
+.col {
+	display: block;
+	float:left;
+	width: 100%;
+	box-sizing: border-box; /* Supported by IE 8+. If IE 7 and below support is required see http://html5please.com/#box-sizing */
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	background-clip: padding-box; /* This allows column elements to have background colour without it bleeding into the gutter. Supported by IE 9+. If support for IE 8 and below is required, a content div with background colour should be placed inside the column */
+	-moz-background-clip: padding-box;
+	-webkit-background-clip: padding-box;
+	margin: 0 0 0em 0;
+	border-left: 0em solid transparent;
+}
+
+.group:before,
+.group:after {
+	content:"";
+	display:table;
+}
+
+.group:after {
+	clear:both;
+}
+
+@media only screen and (min-width:480px) {
+
+	.col {
+		width: auto;
+	}
+
+	.s1 { 
+		width: 33.33%;
+		height: 325px; 
+	}
+
+	.s2 { 
+		width: 33.33%;
+		height: 325px; 
+	}
+
+	.s3 { 
+		width: 33.33%;
+		height: 325px; 
+	}
+}
+
+/*---------------- Flow GS 2 columns ---------------*/
+ 
+.sectionb {
+	clear: both;
+	padding: 0;
+	margin: 0;
+	margin-left: -0em;
+}
+
+.colb {
+	display: block;
+	float:left;
+	width: 100%;
+	box-sizing: border-box; /* Supported by IE 8+. If IE 7 and below support is required see http://html5please.com/#box-sizing */
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	background-clip: padding-box; /* This allows column elements to have background colour without it bleeding into the gutter. Supported by IE 9+. If support for IE 8 and below is required, a content div with background colour should be placed inside the column */
+	-moz-background-clip: padding-box;
+	-webkit-background-clip: padding-box;
+	margin: 0 0 0em 0;
+	border-left: 0em solid transparent;
+}
+
+.groupb:before,
+.groupb:after {
+	content:"";
+	display:table;
+}
+
+.groupb:after {
+	clear:both;
+}
+
+@media only screen and (min-width:480px) {
+
+	.colb {
+		width: auto;
+	}
+
+	.s1b{ width: 50%; height: 15px; border-top: 1px solid #2c81b5; border-right: 1px solid #2c81b5;}
+
+	.s2b{ width: 50%; height: 15px; border-top: 1px solid #2c81b5; }
+}
